@@ -1,0 +1,185 @@
+
+/**********ID selectors*************/
+
+#title{
+  background-color: #ff4c68;
+}
+
+#features{
+  background-color: white;
+  position: relative;
+  z-index: 1;
+
+}
+
+#testimonials{
+  text-align: center;
+  background-color: #ef8172;
+}
+
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+#pricing-head{
+  text-align:center;
+  line-height: 2;
+}
+#pricing-desc{
+  text-align:center;
+}
+#pricing{
+  padding: 100px;
+}
+
+#cta{
+  text-align:center;
+    font-family: 'Montserrat-black';
+    background-color: #ff4c68;
+    color: white;
+    padding: 7% 15%;
+}
+
+#footer{
+  text-align: center;
+  padding: 7% 15%;
+}
+
+
+
+
+/**********Tag selectors*************/
+em {
+  color: white;
+}
+
+h1 {
+  font-family: 'Montserrat-black';
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+}
+body{
+  font-family: 'Montserrat';
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+
+/**********Class selectors*************/
+
+.test-h2{
+  color: white;
+  font-family: 'Montserrat-bold';
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.test-img{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+.press-img{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+.navbar-brand{
+  font-family: 'Ubuntu';
+  font-size: 2rem;
+  font-weight: bold;
+}
+.navbar {
+  padding: 0 0 4.2rem;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-item{
+  font-family: "Montserrat-light";
+  font-weight: 100;
+}
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+.maindog{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  left: 30%;
+
+}
+.features-dsc {
+  font-family: 'Montserrat-bold';
+  font-size: 1.5rem;
+  text-align: center;
+}
+.features-dsc p {
+  color: #8f8f8f;
+  font-size: 1rem;
+}
+.features-icon{
+  color: #ef8172;
+  font-size: 70px;
+  margin-bottom:15px ;
+}
+.features-icon:hover{
+  color: #ff4c68;
+}
+.row{
+  padding-top: 5%;
+}
+.card{
+  text-align: center;
+}
+
+.cta-head{
+  font-family: 'Montserrat-black';
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.social{
+  margin: 20px 10px;
+  font-size: 2.5rem;
+}
+
+.Copyright{
+  font-family: 'Montserrat-black';
+  font-size: 2.5rem;
+}
+
+
+
+/*Media Querries min-width is 900px or greater*/
+
+@media screen and (max-width:1028px ) {
+
+  #title{
+    text-align: center;
+  }
+  .maindog{
+    position: static;
+    transform: rotate(0deg);
+    width: 60%;
+  }
+  .medium{
+    margin-bottom: 30px;
+  }
+
+}
+
+@@media screen and (prefers-reduced-motion:reduced) {
+  html{
+    scroll-behavior: auto;
+  }
+}
