@@ -178,7 +178,7 @@ html{
 
 }
 
-@@media screen and (prefers-reduced-motion:reduced) {
+@media screen and (prefers-reduced-motion:reduced) {
   html{
     scroll-behavior: auto;
   }
